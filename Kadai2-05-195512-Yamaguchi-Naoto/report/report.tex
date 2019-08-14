@@ -1,0 +1,116 @@
+\documentclass[a4j,12pt]{jreport}
+\title{ {\LaTeX} 動作確認テスト・サンプルファイル}
+\author{情報リテラシTA}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\chapter{\LaTeX の世界にようこそ！}
+
+\section{インストール成功！}
+\LaTeX の世界にようこそ！この文章が「dviout」というソフトで閲覧できていれば、
+インストールに成功しています。
+
+\LaTeX（ラテフ）もしくは\TeX（テフ）は、
+組版処理を行うソフトウェアです。
+数学者・コンピュータ科学者のドナルド・クヌース氏によって作られました。
+
+このソフトを使うと、きれいな文章の作成ができます。実際に出版の現場でも使われているそうです。
+数学者が作ったということもあって、特に数式の出力がきれいにできるのが特徴です。
+\begin{eqnarray}
+& \displaystyle \lim _{x \rightarrow 1} \left( \frac{2}{x-1} - \frac{x+5}{x^3 -1} \right)\; ,\; 
+& \displaystyle \int ^\pi _0 \cos ^2 (x)dx \nonumber
+\end{eqnarray}
+2つの数式が、きちんと表示されていますか？
+複雑な数式が入った文章も、きれいに出力することができます。
+
+
+
+\section{基本手順}
+
+では、\LaTeX で文章を作る際の、基本的な手順をここに示します。
+
+
+\begin{enumerate}
+ \item ソースファイルをTeraPadなどのエディタで作成する。
+ 
+ ソース（素）となるファイルを作成します。これにはエディタと呼ばれるソフトを使います。
+ この地点では文章の形にはなっていません。
+ 
+ \item ソースファイルをコンパイルして、dviファイルを作成する。
+ 
+ パソコンに変換を命令して、先ほどつくったソースファイル
+ をdviファイルに変換、文章の形にして確認します。
+ 
+ \item dviファイルができたことを確認したら、PDFに変換する。
+ 
+ dvi形式は、あまり一般的ではありません。
+ そこで、Adobe Readerなどで閲覧ができるPDF形式に変換します。
+ 
+\end{enumerate}
+
+\section{前調査}
+    \subsection{経緯1}
+        松井先生と話していく中で、極限環境微生物に興味を持ち、その中でも{\it Deinoccocus Radiodurans}の持つ優れたDNA修復機構に興味を持ちました。
+
+        そこで、始めはどのようにして
+ 
+    \section{調べてわかったこと}
+        \begin{itemize}
+            \item Deinococcus Radioduransは全般的に放射線耐性をもつ
+            \item PprAというタンパク質がその特徴みたい
+            \item 一般に、乾燥ストレスと放射線ストレスではDNA損傷や酸化など類似点が多いため、乾燥に強い生物は放射線に強いということがよくある。
+            ユリアーキオータ門（古細菌の一群で、メタン菌や高度好塩菌、好熱菌、好熱好酸菌、硫酸還元菌などを含む、ユリ古細菌とも）や、プロテオバクテリア門（真正細菌の一群で、大腸菌、サルモネラ、ヘリコバクター窒素固定菌など）、またはグラム陽性真正細菌の放線菌などの中には、1万グレイ（Gy）程度の放射線に耐えられる種が存在する。
+            記事中て触れられている、「デイノコッカス・ラディオデュランス（Deinococcus radiodurans）は、真正細菌の1種で、その名前（「放射線に耐える奇妙な果実」という意味）のわかりやすさも手伝って、最もよく知られ研究されている放射線耐性生物だが、この生物がギネスブックに載って以降これよりもっと耐性の強い生物がいくつか見つかっている
+            ルブロバクテル・ラディオトレランス（放線菌）
+            1万6千グレイ（2013年）
+            （鳥取県のラジウム泉三朝温泉（みささおんせん）で発見）
+            Halobacterium NRC-1（古細菌ユリアーキオータ門高度好塩菌）
+            1万8千グレイ
+            https://newspicks.com/news/2864874/
+
+        \end{itemize}
+
+
+\section{調査プラン}
+    \begin{enumerate}
+       \item dS/dN解析 
+       \item Deinococcus Radioduransの修復で重要とされているタンパク質がRuburobacter Radiotoleransでも存在するか
+    \end{enumerate}
+
+\section{実際にやったこと}
+taxonid 300852の
+Thermus thermophilus hb8
+
+taxonid 243230の
+Deinoccocus Radiodurans radiodurans）は、真正細菌の1種で、その名前（「放射線に耐える奇妙な果実」という意味）のわかりやすさも手伝って、最もよく知られ研究されている放射線耐性生物だが、この生物がギネスブックに載って以降これよりもっと耐性の強い生物がいくつか見つかっている
+
+
+\section{利用したデータ}
+    \begin{itemize}
+        \item Halobacterium salinarum
+        NRC-1が放射線耐性があるらしいが、ゲノムはなし？
+        https://www.ncbi.nlm.nih.gov/genome/?term=Halobacterium%20salinarum%20NRC-1
+
+        \item Ruburobacter Radiotolerans
+        https://www.ncbi.nlm.nih.gov/genome/?term=Rubrobacter%20radiotolerans
+        
+        \item Deinococcus grandis
+        https://www.ncbi.nlm.nih.gov/genome/?term=Deinobacter%20grandis
+        \item Deinococcus peraridilitoris
+        https://www.ncbi.nlm.nih.gov/genome/10815
+
+        \item Kineococcus radiotolerans
+        \item https://www.ncbi.nlm.nih.gov/genome/1132
+        \item 
+
+
+        \item Thermococcus gammatolerans
+        γ線耐性があるがゲノムなし？
+        https://www.ncbi.nlm.nih.gov/genome/?term=Thermococcus%20gammatolerans
+
+    \end{itemize}
+
+
+\end{document}

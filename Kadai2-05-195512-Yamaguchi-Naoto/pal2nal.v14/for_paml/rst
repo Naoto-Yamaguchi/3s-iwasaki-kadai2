@@ -1,0 +1,7 @@
+Supplemental results for CODEML (seqf: /Users/naoto/ut/3S/iwasaki/pal2nal.phylip  treef: gene1.tree)
+
+
+pairwise comparison (Goldman & Yang 1994)
+seq seq        N       S       dN       dS     dN/dS   Paras.
+  2   1    883.8    184.2   0.4662  29.7153   0.0157  16.5302   1.4658   0.0157 -2439.165
+

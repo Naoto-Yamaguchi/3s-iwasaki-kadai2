@@ -1,0 +1,89 @@
+CODONML (in paml version 4.8a, August 2014)  codeml_input/Deinococcus_Radiodurans_R1_Deinococcus_gobiensis_I0_gene61_aligned_phylip.nuc
+Model: several dN/dS ratios for branches for branches, 
+Codon frequency model: F3x4
+ns =   2  ls = 302
+
+Codon usage in sequences
+----------------------------------------------------------------------
+Phe TTT   8   2 | Ser TCT   1   0 | Tyr TAT   0   0 | Cys TGT   0   0
+    TTC   9  16 |     TCC   2   1 |     TAC   5   6 |     TGC   1   0
+Leu TTA   0   0 |     TCA   1   0 | *** TAA   0   0 | *** TGA   0   0
+    TTG   0   0 |     TCG   2   1 | Gln TAG   0   0 | Trp TGG   8   7
+----------------------------------------------------------------------
+Leu CTT   3   0 | Pro CCT   1   0 | His CAT   1   0 | Arg CGT   4   3
+    CTC  14  13 |     CCC   7   8 |     CAC   6   9 |     CGC  19  18
+    CTA   0   1 |     CCA   1   0 | Gln CAA   2   0 |     CGA   3   0
+    CTG  19  28 |     CCG   7   4 |     CAG  14  11 |     CGG   7   6
+----------------------------------------------------------------------
+Ile ATT   1   0 | Thr ACT   2   0 | Asn AAT   0   2 | Ser AGT   0   0
+    ATC   2   3 |     ACC  12  10 |     AAC   3   6 |     AGC  10  16
+    ATA   0   0 |     ACA   1   0 | Lys AAA   0   0 | Arg AGA   2   0
+Met ATG   4   6 |     ACG   5   9 |     AAG   3   4 |     AGG   0   0
+----------------------------------------------------------------------
+Val GTT   0   0 | Ala GCT   6   0 | Asp GAT   0   0 | Gly GGT   2   1
+    GTC   4   6 |     GCC  13  16 |     GAC  14  18 |     GGC  12  11
+    GTA   1   0 |     GCA   6   0 | Glu GAA   5   7 |     GGA   8   1
+    GTG  14  16 |     GCG   9  15 |     GAG  11  16 |     GGG   7   5
+----------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Deinococcus_Radiodurans_R1
+position  1:    T:0.12252    C:0.35762    A:0.14901    G:0.37086
+position  2:    T:0.26159    C:0.25166    A:0.21192    G:0.27483
+position  3:    T:0.09603    C:0.44040    A:0.09934    G:0.36424
+Average         T:0.16004    C:0.34989    A:0.15342    G:0.33664
+
+#2: Deinococcus_gobiensis_I0
+position  1:    T:0.10927    C:0.33444    A:0.18543    G:0.37086
+position  2:    T:0.30132    C:0.21192    A:0.26159    G:0.22517
+position  3:    T:0.02649    C:0.51987    A:0.02980    G:0.42384
+Average         T:0.14570    C:0.35541    A:0.15894    G:0.33996
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      10 | Ser S TCT       1 | Tyr Y TAT       0 | Cys C TGT       0
+      TTC      25 |       TCC       3 |       TAC      11 |       TGC       1
+Leu L TTA       0 |       TCA       1 | *** * TAA       0 | *** * TGA       0
+      TTG       0 |       TCG       3 | Gln Q TAG       0 | Trp W TGG      15
+------------------------------------------------------------------------------
+Leu L CTT       3 | Pro P CCT       1 | His H CAT       1 | Arg R CGT       7
+      CTC      27 |       CCC      15 |       CAC      15 |       CGC      37
+      CTA       1 |       CCA       1 | Gln Q CAA       2 |       CGA       3
+      CTG      47 |       CCG      11 |       CAG      25 |       CGG      13
+------------------------------------------------------------------------------
+Ile I ATT       1 | Thr T ACT       2 | Asn N AAT       2 | Ser S AGT       0
+      ATC       5 |       ACC      22 |       AAC       9 |       AGC      26
+      ATA       0 |       ACA       1 | Lys K AAA       0 | Arg R AGA       2
+Met M ATG      10 |       ACG      14 |       AAG       7 |       AGG       0
+------------------------------------------------------------------------------
+Val V GTT       0 | Ala A GCT       6 | Asp D GAT       0 | Gly G GGT       3
+      GTC      10 |       GCC      29 |       GAC      32 |       GGC      23
+      GTA       1 |       GCA       6 | Glu E GAA      12 |       GGA       9
+      GTG      30 |       GCG      24 |       GAG      27 |       GGG      12
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.11589    C:0.34603    A:0.16722    G:0.37086
+position  2:    T:0.28146    C:0.23179    A:0.23675    G:0.25000
+position  3:    T:0.06126    C:0.48013    A:0.06457    G:0.39404
+Average         T:0.15287    C:0.35265    A:0.15618    G:0.33830
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Deinococcus_Radiodurans_R1
+Deinococcus_gobiensis_I0 0.5501 (0.3792 0.6893)
+
+pairwise comparison, codon frequencies: F3x4.
+
+
+2 (Deinococcus_gobiensis_I0) ... 1 (Deinococcus_Radiodurans_R1)
+lnL =-1966.862202
+ 50.00000  1.09505  0.00355
+
+t= 50.0000  S=   165.7  N=   740.3  dN/dS=  0.0035  dN = 0.3183  dS =89.7108

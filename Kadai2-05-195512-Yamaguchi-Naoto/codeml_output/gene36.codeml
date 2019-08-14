@@ -1,0 +1,89 @@
+CODONML (in paml version 4.8a, August 2014)  codeml_input/gene36_aligned_phylip.nuc
+Model: several dN/dS ratios for branches for branches, 
+Codon frequency model: F3x4
+ns =   2  ls = 153
+
+Codon usage in sequences
+----------------------------------------------------------------------
+Phe TTT   3   2 | Ser TCT   1   0 | Tyr TAT   0   0 | Cys TGT   2   0
+    TTC   5   6 |     TCC   1   4 |     TAC   5   5 |     TGC   2   5
+Leu TTA   0   0 |     TCA   0   0 | *** TAA   0   0 | *** TGA   0   0
+    TTG   0   0 |     TCG   2   4 | Gln TAG   0   0 | Trp TGG   0   0
+----------------------------------------------------------------------
+Leu CTT   0   2 | Pro CCT   0   0 | His CAT   1   0 | Arg CGT   2   0
+    CTC   4   8 |     CCC   6   8 |     CAC   0   2 |     CGC  13  12
+    CTA   2   1 |     CCA   0   0 | Gln CAA   0   0 |     CGA   1   0
+    CTG   6   3 |     CCG   3   1 |     CAG   2   2 |     CGG   5   4
+----------------------------------------------------------------------
+Ile ATT   2   1 | Thr ACT   2   0 | Asn AAT   1   0 | Ser AGT   2   0
+    ATC   5   5 |     ACC   5   6 |     AAC   1   1 |     AGC   5   2
+    ATA   0   0 |     ACA   0   0 | Lys AAA   1   1 | Arg AGA   0   0
+Met ATG   2   3 |     ACG   0   0 |     AAG   5   8 |     AGG   0   3
+----------------------------------------------------------------------
+Val GTT   0   0 | Ala GCT   0   0 | Asp GAT   1   1 | Gly GGT   0   0
+    GTC   4   4 |     GCC   7   7 |     GAC   9   9 |     GGC   5   4
+    GTA   0   0 |     GCA   0   1 | Glu GAA   5   0 |     GGA   1   1
+    GTG   5   6 |     GCG   5   0 |     GAG  12  18 |     GGG   2   3
+----------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Deinococcus_Radiodurans_R1
+position  1:    T:0.13725    C:0.29412    A:0.20261    G:0.36601
+position  2:    T:0.24837    C:0.20915    A:0.28105    G:0.26144
+position  3:    T:0.11111    C:0.50327    A:0.06536    G:0.32026
+Average         T:0.16558    C:0.33551    A:0.18301    G:0.31590
+
+#2: Thermus_thermophilus_HB8
+position  1:    T:0.16993    C:0.28105    A:0.19608    G:0.35294
+position  2:    T:0.26797    C:0.20261    A:0.30719    G:0.22222
+position  3:    T:0.03922    C:0.57516    A:0.02614    G:0.35948
+Average         T:0.15904    C:0.35294    A:0.17647    G:0.31155
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT       5 | Ser S TCT       1 | Tyr Y TAT       0 | Cys C TGT       2
+      TTC      11 |       TCC       5 |       TAC      10 |       TGC       7
+Leu L TTA       0 |       TCA       0 | *** * TAA       0 | *** * TGA       0
+      TTG       0 |       TCG       6 | Gln Q TAG       0 | Trp W TGG       0
+------------------------------------------------------------------------------
+Leu L CTT       2 | Pro P CCT       0 | His H CAT       1 | Arg R CGT       2
+      CTC      12 |       CCC      14 |       CAC       2 |       CGC      25
+      CTA       3 |       CCA       0 | Gln Q CAA       0 |       CGA       1
+      CTG       9 |       CCG       4 |       CAG       4 |       CGG       9
+------------------------------------------------------------------------------
+Ile I ATT       3 | Thr T ACT       2 | Asn N AAT       1 | Ser S AGT       2
+      ATC      10 |       ACC      11 |       AAC       2 |       AGC       7
+      ATA       0 |       ACA       0 | Lys K AAA       2 | Arg R AGA       0
+Met M ATG       5 |       ACG       0 |       AAG      13 |       AGG       3
+------------------------------------------------------------------------------
+Val V GTT       0 | Ala A GCT       0 | Asp D GAT       2 | Gly G GGT       0
+      GTC       8 |       GCC      14 |       GAC      18 |       GGC       9
+      GTA       0 |       GCA       1 | Glu E GAA       5 |       GGA       2
+      GTG      11 |       GCG       5 |       GAG      30 |       GGG       5
+------------------------------------------------------------------------------
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.15359    C:0.28758    A:0.19935    G:0.35948
+position  2:    T:0.25817    C:0.20588    A:0.29412    G:0.24183
+position  3:    T:0.07516    C:0.53922    A:0.04575    G:0.33987
+Average         T:0.16231    C:0.34423    A:0.17974    G:0.31373
+
+
+Nei & Gojobori 1986. dN/dS (dN, dS)
+(Note: This matrix is not used in later ML. analysis.
+Use runmode = -2 for ML pairwise comparison.)
+
+Deinococcus_Radiodurans_R1
+Thermus_thermophilus_HB8 0.2595 (0.2825 1.0886)
+
+pairwise comparison, codon frequencies: F3x4.
+
+
+2 (Thermus_thermophilus_HB8) ... 1 (Deinococcus_Radiodurans_R1)
+lnL = -950.967404
+ 44.24829  1.40098  0.00212
+
+t= 44.2483  S=    64.9  N=   394.1  dN/dS=  0.0021  dN = 0.2180  dS =102.9765
