@@ -30,6 +30,7 @@
 
 * data
 	NCBIなどのデータベースから取得した、解析に用いるデータ群
+	今回用いていないデータも格納されています。
 * report
 	提出したレポートとそれをの作成するためのLaTex用ファイル群
 
@@ -39,7 +40,18 @@
 * deinococcus_radiodurans_r1_thermus_thermophilus_hb_ds_dn_analysis.ipynb
 	deinococcus radiodurans r1とthermus thermophilus hbを比較してdN/dS解析するメインのファイル。これを逐一実行することで、各ソフトウェアの入出力ファイルが上記のディレクトリに作られ、最終的にdN/dS値をプロットしたグラフを表示する。
 
-
+* その他のファイル
+	これ以外のファイルは、codemlの出力としてプログラムを実行した場所と同じディレクトリに生成される出力ファイルです。codemlの出力ファイルではありますが、出力先の指定が容易ではなかったこと、今回の解析では用いなかったことから、今回は無視していただいて構いません。
+	以下のファイルです、
+	* 2ML.dN
+	* 2ML.dS
+	* 2ML.t
+	* 2NG.dN
+	* 2NG.dS
+	* 2NG.t
+	* rst
+	* rst1
+	* rub
 
 	
 # 参考文献
