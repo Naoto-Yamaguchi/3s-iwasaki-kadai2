@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.7.30)  14 AUG 2019 11:50
+This is e-pTeX, Version 3.14159265-p3.8.2-190131-2.6 (utf8.euc) (TeX Live 2019) (preloaded format=platex 2019.7.30)  14 AUG 2019 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/naoto/ut/3S/iwasaki/Kadai2-05-195512-Yamaguchi-Naoto/report/a
-(/Users/naoto/ut/3S/iwasaki/Kadai2-05-195512-Yamaguchi-Naoto/report/a.tex
+**/Users/naoto/ut/3S/iwasaki/3s-iwasaki-kadai2/Kadai2-05-195512-Yamaguchi-Naoto/report/a
+(/Users/naoto/ut/3S/iwasaki/3s-iwasaki-kadai2/Kadai2-05-195512-Yamaguchi-Naoto/report/a.tex
 pLaTeX2e <2019-04-06> (based on LaTeX2e <2018-12-01>)
 (/usr/local/texlive/2019/texmf-dist/tex/platex/base/jreport.cls
 Document Class: jreport 2019/04/02 v1.8b Standard pLaTeX class
@@ -94,9 +94,9 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 
 ] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
+(Font)              <6> on input line 77.
 File: images/result1.jpg Graphic file (type bmp)
 <images/result1.jpg>
 
@@ -137,186 +137,20 @@ Overfull \hbox (15.91664pt too wide) in paragraph at lines 113--131
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 165.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.160 ....gov/genomes/refseq/bacteria/Deinococcus_
-                                                  radiodurans/latest_assembl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161         \item
-                    Thermus Thermophilus
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161         \item T
-                     hermus Thermophilus
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161         \item T
-                     hermus Thermophilus
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.162 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (642.30017pt too wide) in paragraph at lines 160--162
-[]\OT1/cmr/m/n/12 ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Deinococcus$[]\OML/cmm/m/it/12 adiodurans=latest[]ssembly[]ersions=GCF[]\OT1/cmr/m/n/12 00008565\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 856\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 =GCF[]\OT1/cmr/m/n/12 00008565\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 856\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 enomic:gbff:gzThermusThermophilus[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.162 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.163 ....nih.gov/genomes/refseq/bacteria/Thermus_
-                                                  thermophilus/latest_assemb...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.164 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.164 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (477.70775pt too wide) in paragraph at lines 163--164
-[]\OT1/cmr/m/n/12 ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/Thermus$[]\OML/cmm/m/it/12 hermophilus=latest[]ssembly[]ersions=GCF[]\OT1/cmr/m/n/12 00008125\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 812\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 =GCF[]\OT1/cmr/m/n/12 00008125\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 812\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 enomic:gbff:gz[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.164 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.167 ....nih.gov/genomes/all/GCF/000/252/445/GCF_
-                                                  000252445.1_ASM25244v1/GCF...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.168 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.168 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (291.55592pt too wide) in paragraph at lines 167--168
-[]\OT1/cmr/m/n/12 ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/252/445/GCF$[]00252445\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 25244\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 =GCF[]\OT1/cmr/m/n/12 00252445\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 SM\OT1/cmr/m/n/12 25244\OML/cmm/m/it/12 v\OT1/cmr/m/n/12 1[]\OML/cmm/m/it/12 enomic:gbff:gz[]$ 
- []
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.168 
-      
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[5] (./a.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 165.
+ [5] [6] (./a.aux) ) 
 Here is how much of TeX's memory you used:
  800 strings out of 493216
- 10284 string characters out of 6143982
+ 10338 string characters out of 6143982
  78763 words of memory out of 5000000
  4829 multiletter control sequences out of 15000+600000
  15997 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,10n,21p,351b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,10n,21p,369b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on a.dvi (6 pages, 17280 bytes).
+Output written on a.dvi (7 pages, 17908 bytes).
